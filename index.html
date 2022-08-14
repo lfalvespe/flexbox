@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Propriedades Flexbox</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <header>
+        <h1 class="titulo-css">CSS3</h1>
+        <h1 class="titulo">Aprenda Flexbox de uma vez por todas !!!</h1>
+        <img class="logo-css" src="css3.jpg" width="60" alt="">
+    </header>
+    
+    <h1 class="barra-flex">FLEXBOX</h1>
+
+    <div class="flex-code">
+        <pre>
+            <code>
+                .container {
+
+                    display: flex
+                    flex-direction: ...
+                    align-items: ...
+                    justify-content: ...
+                    flex-wrap: ...
+                    row-gap: ...
+                    line-gap: ...  
+                    
+                }
+            </code>
+        </pre>
+    </div>
+    
+    
+    <h2># Propriedades #</h2>
+
+    <br><br>
+    <h3>1 - flex-direction: <span style="color:white; margin-left: 0px;"> # Escolhendo o eixo principal </span></h3>
+
+    <br>
+    <p>flex-direction: <span style="color:crimson">row</span>;</p>
+    <div class="container" id="row">
+
+        <div class="azul">Bloco 1</div>
+        <div class="roxo">Bloco 2</div>
+        <div class="vermelho">Bloco 3</div>
+    
+    </div>
+
+    <p>flex-direction: <span style="color:crimson">row-reverse</span>;</p>
+    <div class="container" id="row-reverse">
+
+        <div class="azul">Bloco 1</div>
+        <div class="roxo">Bloco 2</div>
+        <div class="vermelho">Bloco 3</div>
+
+    </div>
+
+    <p>flex-direction: <span style="color:crimson">column</span>;</p>
+    <div class="container" id="column">
+
+        <div class="azul">Bloco 1</div>
+        <div class="roxo">Bloco 2</div>
+        <div class="vermelho">Bloco 3</div>
+
+    </div>
+
+    <p>flex-direction: <span style="color:crimson">column-reverse</span>;</p>
+    <div class="container" id="column-reverse">
+
+        <div class="azul">Bloco 1</div>
+        <div class="roxo">Bloco 2</div>
+        <div class="vermelho">Bloco 3</div>
+
+    </div>
+
+    <br><br>
+    <hr><hr>
+    <br><br>
+
+
+    <h3>2 - justify-content: <span style="color:white"> # Alinhando os itens na horizontal</span> </h3>
+
+    <br>
+    <p>justify-content: <span style="color:crimson">flex-start</span>;</p>
+    <div class="container">
+
+        <div class="azul">Bloco 1</div>
+        <div class="roxo">Bloco 2</div>
+        <div class="vermelho">Bloco 3</div>
+    
+    </div> 
+
+    <p>justify-content: <span style="color:crimson">center</span>;</p>
+    <div class="container" id="center">
+
+        <div class="azul">Bloco 1</div>
+        <div class="roxo">Bloco 2</div>
+        <div class="vermelho">Bloco 3</div>
+    
+    </div> 
+
+    <p>justify-content: <span style="color:crimson">flex-end</span>;</p>
+    <div class="container" id="flex-end">
+
+        <div class="azul">Bloco 1</div>
+        <div class="roxo">Bloco 2</div>
+        <div class="vermelho">Bloco 3</div>
+    
+    </div> 
+
+    <p>justify-content: <span style="color:crimson">space-between</span>;</p>
+    <div class="container" id="space-between">
+
+        <div class="azul">Bloco 1</div>
+        <div class="roxo">Bloco 2</div>
+        <div class="vermelho">Bloco 3</div>
+    
+    </div> 
+
+    <p>justify-content: <span style="color:crimson">space-around</span>;</p>
+    <div class="container" id="space-around">
+
+        <div class="azul">Bloco 1</div>
+        <div class="roxo">Bloco 2</div>
+        <div class="vermelho">Bloco 3</div>
+    
+    </div> 
+
+    <br><br>
+    <hr><hr>
+    <br><br>
+   
+    
+    <h3>3 - align-items: <span style="color:white"> # Alinhando os itens na vertical</span> </h3>
+
+    <br>
+    <p>align-items: <span style="color:crimson">flex-start</span>;</p>
+    <div class="container" id="ai-flex-start">
+
+        <div class="azul">Bloco 1</div>
+        <div class="roxo">Bloco 2</div>
+        <div class="vermelho">Bloco 3</div>
+    
+    </div> 
+
+    <p>align-items: <span style="color:crimson">center</span>;</p>
+    <div class="container" id="ai-center">
+
+        <div class="azul">Bloco 1</div>
+        <div class="roxo">Bloco 2</div>
+        <div class="vermelho">Bloco 3</div>
+    
+    </div> 
+
+    <p>align-items: <span style="color:crimson">flex-end</span>;</p>
+    <div class="container" id="ai-flex-end">
+
+        <div class="azul">Bloco 1</div>
+        <div class="roxo">Bloco 2</div>
+        <div class="vermelho">Bloco 3</div>
+    
+    </div>
+
+    <p>align-items: <span style="color:crimson">stretch</span>;</p>
+    <div class="container" id="stretch">
+
+        <div class="azul">Bloco 1</div>
+        <div class="roxo">Bloco 2</div>
+        <div class="vermelho">Bloco 3</div>
+    
+    </div>
+    
+    
+    <p>align-items: <span style="color:crimson">baseline</span>;</p>
+    <div class="container" id="baseline">
+
+        <div class="azul">Bloco 1</div>
+        <div class="roxo" style="font-size: 1.4em">Bloco 2</div>
+        <div class="vermelho" style="font-size: 1.6em">Bloco 3</div>
+    
+    </div>
+
+    <br><br>
+    <hr><hr>
+    <br><br>
+
+    <h3>4 - flex-wrap: <span style="color:white"> # Ajustando para caber tudo em uma linha</span> </h3>
+
+    <br>
+    <p>flex-wrap: <span style="color:crimson">no-wrap (padrão)</span>;</p>
+    <div class="container" id="no-wrap">
+
+        <div class="azul">Bloco 1</div>
+        <div class="roxo">Bloco 2</div>
+        <div class="vermelho">Bloco 3</div>
+        <div class="azul">Bloco 4</div>
+        <div class="roxo">Bloco 5</div>
+        <div class="vermelho">Bloco 6</div>
+        <div class="azul">Bloco 7</div>
+        <div class="roxo">Bloco 8</div>
+    
+    </div>
+
+    <p>flex-wrap: <span style="color:crimson">wrap</span>;</p>
+    <div class="container" id="wrap">
+
+        <div class="azul">Bloco 1</div>
+        <div class="roxo">Bloco 2</div>
+        <div class="vermelho">Bloco 3</div>
+        <div class="azul">Bloco 4</div>
+        <div class="roxo">Bloco 5</div>
+        <div class="vermelho">Bloco 6</div>
+        <div class="azul">Bloco 7</div>
+        <div class="roxo">Bloco 8</div>
+        <div class="vermelho">Bloco 9</div>
+        <div class="azul">Bloco 10</div>
+        <div class="roxo">Bloco 11</div>
+        <div class="vermelho">Bloco 12</div>
+        <div class="azul">Bloco 13</div>
+
+    </div>
+
+    <p>flex-wrap: <span style="color:crimson">wrap-reverse</span>;</p>
+    <div class="container" id="wrap-reverse">
+
+        <div class="azul">Bloco 1</div>
+        <div class="roxo">Bloco 2</div>
+        <div class="vermelho">Bloco 3</div>
+        <div class="azul">Bloco 4</div>
+        <div class="roxo">Bloco 5</div>
+        <div class="vermelho">Bloco 6</div>
+        <div class="azul">Bloco 7</div>
+        <div class="roxo">Bloco 8</div>
+        <div class="vermelho">Bloco 9</div>
+        <div class="azul">Bloco 10</div>
+        <div class="roxo">Bloco 11</div>
+        <div class="vermelho">Bloco 12</div>
+        <div class="azul">Bloco 13</div>
+
+    </div>
+
+    <br><br>
+    <hr><hr>
+    <br>
+
+    <h3>5 - flex-flow: <span style="color:white"> # unindo flex-direction e flex-wrap</span> </h3>
+    <p>Exemplo: 
+    <div class="flow-code">
+        <pre><code>
+    flex-direction: <span style="color:crimson">row</span>
+    flex-flow: <span style="color:crimson">wrap</span>
+
+    é substituído por:
+
+    flex-flow: <span style="color:crimson">row wrap</span>
+    </code></pre>
+    </div> 
+
+    <br>
+    <hr><hr>
+    <br><br>
+      
+    <h3>6 - align-content: <span style="color:white"> # Alinhando elementos em várias linha</span> </h3>
+    
+    <br>
+    <p>align-content: <span style="color:crimson">flex-start</span>;</p>
+    <div class="container" id="ac-flex-start">
+
+        <div class="azul">Bloco 1</div>
+        <div class="roxo">Bloco 2</div>
+        <div class="vermelho">Bloco 3</div>
+        <div class="azul">Bloco 4</div>
+        <div class="roxo">Bloco 5</div>
+        <div class="vermelho">Bloco 6</div>
+        <div class="azul">Bloco 7</div>
+        <div class="roxo">Bloco 8</div>
+        <div class="vermelho">Bloco 9</div>
+        <div class="azul">Bloco 10</div>
+        <div class="roxo">Bloco 11</div>
+        <div class="vermelho">Bloco 12</div>
+        <div class="azul">Bloco 13</div>
+
+    </div>
+
+    <p>align-content: <span style="color:crimson">center</span>;</p>
+    <div class="container" id="ac-center">
+
+        <div class="azul">Bloco 1</div>
+        <div class="roxo">Bloco 2</div>
+        <div class="vermelho">Bloco 3</div>
+        <div class="azul">Bloco 4</div>
+        <div class="roxo">Bloco 5</div>
+        <div class="vermelho">Bloco 6</div>
+        <div class="azul">Bloco 7</div>
+        <div class="roxo">Bloco 8</div>
+        <div class="vermelho">Bloco 9</div>
+        <div class="azul">Bloco 10</div>
+        <div class="roxo">Bloco 11</div>
+        <div class="vermelho">Bloco 12</div>
+        <div class="azul">Bloco 13</div>
+
+    </div>
+
+    <p>align-content: <span style="color:crimson">flex-end</span>;</p>
+    <div class="container" id="ac-flex-end">
+
+        <div class="azul">Bloco 1</div>
+        <div class="roxo">Bloco 2</div>
+        <div class="vermelho">Bloco 3</div>
+        <div class="azul">Bloco 4</div>
+        <div class="roxo">Bloco 5</div>
+        <div class="vermelho">Bloco 6</div>
+        <div class="azul">Bloco 7</div>
+        <div class="roxo">Bloco 8</div>
+        <div class="vermelho">Bloco 9</div>
+        <div class="azul">Bloco 10</div>
+        <div class="roxo">Bloco 11</div>
+        <div class="vermelho">Bloco 12</div>
+        <div class="azul">Bloco 13</div>
+
+    </div>
+
+    <p>align-content: <span style="color:crimson">space-between</span>;</p>
+    <div class="container" id="ac-space-between">
+
+        <div class="azul">Bloco 1</div>
+        <div class="roxo">Bloco 2</div>
+        <div class="vermelho">Bloco 3</div>
+        <div class="azul">Bloco 4</div>
+        <div class="roxo">Bloco 5</div>
+        <div class="vermelho">Bloco 6</div>
+        <div class="azul">Bloco 7</div>
+        <div class="roxo">Bloco 8</div>
+        <div class="vermelho">Bloco 9</div>
+        <div class="azul">Bloco 10</div>
+        <div class="roxo">Bloco 11</div>
+        <div class="vermelho">Bloco 12</div>
+        <div class="azul">Bloco 13</div>
+
+    </div>
+
+    <p>align-content: <span style="color:crimson">space-around</span>;</p>
+    <div class="container" id="ac-space-around">
+
+        <div class="azul">Bloco 1</div>
+        <div class="roxo">Bloco 2</div>
+        <div class="vermelho">Bloco 3</div>
+        <div class="azul">Bloco 4</div>
+        <div class="roxo">Bloco 5</div>
+        <div class="vermelho">Bloco 6</div>
+        <div class="azul">Bloco 7</div>
+        <div class="roxo">Bloco 8</div>
+        <div class="vermelho">Bloco 9</div>
+        <div class="azul">Bloco 10</div>
+        <div class="roxo">Bloco 11</div>
+        <div class="vermelho">Bloco 12</div>
+        <div class="azul">Bloco 13</div>
+
+    </div>
+
+    <br><br>
+    <hr><hr>
+    <br><br>
+
+    <h3>7 - row-gap, column-gap ou gap: <span style="color:white"> # definindo espaços entre as linhas e colunas</span> </h3>
+
+    <br>
+    <p>row-gap: <span style="color:crimson">20px</span>;</p>
+    <div class="container" id="row-gap">
+
+        <div class="azul">Bloco 1</div>
+        <div class="roxo">Bloco 2</div>
+        <div class="vermelho">Bloco 3</div>
+        <div class="azul">Bloco 4</div>
+        <div class="roxo">Bloco 5</div>
+        <div class="vermelho">Bloco 6</div>
+        <div class="azul">Bloco 7</div>
+        <div class="roxo">Bloco 8</div>
+        <div class="vermelho">Bloco 9</div>
+        <div class="azul">Bloco 10</div>
+        <div class="roxo">Bloco 11</div>
+        <div class="vermelho">Bloco 12</div>
+        <div class="azul">Bloco 13</div>
+
+    </div>
+
+    <p>column-gap: <span style="color:crimson">20px</span>;</p>
+    <div class="container" id="column-gap">
+
+        <div class="azul">Bloco 1</div>
+        <div class="roxo">Bloco 2</div>
+        <div class="vermelho">Bloco 3</div>
+        <div class="azul">Bloco 4</div>
+        <div class="roxo">Bloco 5</div>
+        <div class="vermelho">Bloco 6</div>
+        <div class="azul">Bloco 7</div>
+        <div class="roxo">Bloco 8</div>
+        <div class="vermelho">Bloco 9</div>
+        <div class="azul">Bloco 10</div>
+        <div class="roxo">Bloco 11</div>
+        <div class="vermelho">Bloco 12</div>
+
+    </div>
+
+    <p>gap: <span style="color:crimson">10px 20px</span>;</p>
+    <div class="container" id="gap">
+
+        <div class="azul">Bloco 1</div>
+        <div class="roxo">Bloco 2</div>
+        <div class="vermelho">Bloco 3</div>
+        <div class="azul">Bloco 4</div>
+        <div class="roxo">Bloco 5</div>
+        <div class="vermelho">Bloco 6</div>
+        <div class="azul">Bloco 7</div>
+        <div class="roxo">Bloco 8</div>
+        <div class="vermelho">Bloco 9</div>
+        <div class="azul">Bloco 10</div>
+        <div class="roxo">Bloco 11</div>
+        <div class="vermelho">Bloco 12</div>
+
+    </div>
+
+    <footer>
+        <p>Site criado por <strong>Fernando Alves</strong> <br> lfalvespe@gmail.com</p>
+    </footer>
+</body>
+
+
+
+</html>
