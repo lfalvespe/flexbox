@@ -10,6 +10,8 @@ Site desenvolvido para ensinar sobre o display flex, mostrando o comportamento d
 
 <hr>
 
+<div align="center">
 <img src="imagens/flexbox.PNG" width="500"><img src="imagens/flexbox2.PNG" width="500">
+<div>
 
 <hr>
