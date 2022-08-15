@@ -11,7 +11,7 @@ body {
 }
 
 header {
-	margin: 20px 15px;
+	margin-bottom: 20px;
 	padding: 10px;
 	display: flex;
 	flex-direction: row;
