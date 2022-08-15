@@ -199,21 +199,21 @@ p {
 }
 
 #no-wrap {
-	height: 250px;
+	height: 200px;
 	align-items: center;
 	justify-content: center;
 }
 
 
 #wrap {
-	height: 310px;
+	height: 240px;
 	justify-content: center;
 	align-items: center;
 	flex-wrap: wrap;
 }
 
 #wrap-reverse {
-	height: 310px;
+	height: 250px;
 	justify-content: center;
 	align-items: center;
 	flex-wrap: wrap-reverse;
@@ -229,42 +229,42 @@ p {
 }
 
 #ac-flex-start {
-	height: 290px;
+	height: 250px;
 	justify-content: center;
 	flex-flow: row wrap ;
 	align-content: flex-start;
 }
 
 #ac-center {
-	height: 300px;
+	height: 250px;
 	justify-content: center;
 	flex-flow: row wrap ;
 	align-content: center;
 }
 
 #ac-flex-end {
-	height: 290px;
+	height: 250px;
 	justify-content: center;
 	flex-flow: row wrap ;
 	align-content: flex-end;
 }
 
 #ac-space-between {
-	height: 320px;
+	height: 250px;
 	justify-content: center;
 	flex-flow: row wrap ;
 	align-content: space-between;
 }
 
 #ac-space-around {
-	height: 320px;
+	height: 250px;
 	justify-content: center;
 	flex-flow: row wrap ;
 	align-content: space-around;
 }
 
 #row-gap {
-	height: 290px;
+	height: 250px;
 	flex-flow: row wrap;
 	justify-content: center;
 	align-content: flex-start;
@@ -272,7 +272,7 @@ p {
 }
 
 #column-gap {
-	height: 290px;
+	height: 250px;
 	flex-flow: row wrap;
 	justify-content: center;
 	align-content: flex-start;
@@ -280,7 +280,7 @@ p {
 }
 
 #gap {
-	height: 330px;
+	height: 250px;
 	flex-flow: row wrap;
 	justify-content: center;
 	align-content: flex-start;
