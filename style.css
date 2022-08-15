@@ -277,7 +277,7 @@ p {
 }
 
 #gap {
-	height: 290px;
+	height: 310px;
 	flex-flow: row wrap;
 	justify-content: center;
 	align-content: flex-start;
