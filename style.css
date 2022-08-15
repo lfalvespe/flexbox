@@ -203,14 +203,14 @@ p {
 
 
 #wrap {
-	height: 270px;
+	height: 290px;
 	justify-content: center;
 	align-items: center;
 	flex-wrap: wrap;
 }
 
 #wrap-reverse {
-	height: 270px;
+	height: 290px;
 	justify-content: center;
 	align-items: center;
 	flex-wrap: wrap-reverse;
@@ -226,42 +226,42 @@ p {
 }
 
 #ac-flex-start {
-	height: 270px;
+	height: 290px;
 	justify-content: center;
 	flex-flow: row wrap ;
 	align-content: flex-start;
 }
 
 #ac-center {
-	height: 270px;
+	height: 290px;
 	justify-content: center;
 	flex-flow: row wrap ;
 	align-content: center;
 }
 
 #ac-flex-end {
-	height: 270px;
+	height: 290px;
 	justify-content: center;
 	flex-flow: row wrap ;
 	align-content: flex-end;
 }
 
 #ac-space-between {
-	height: 270px;
+	height: 290px;
 	justify-content: center;
 	flex-flow: row wrap ;
 	align-content: space-between;
 }
 
 #ac-space-around {
-	height: 270px;
+	height: 290px;
 	justify-content: center;
 	flex-flow: row wrap ;
 	align-content: space-around;
 }
 
 #row-gap {
-	height: 250px;
+	height: 290px;
 	flex-flow: row wrap;
 	justify-content: center;
 	align-content: flex-start;
@@ -269,7 +269,7 @@ p {
 }
 
 #column-gap {
-	height: 270px;
+	height: 290px;
 	flex-flow: row wrap;
 	justify-content: center;
 	align-content: flex-start;
@@ -277,7 +277,7 @@ p {
 }
 
 #gap {
-	height: 270px;
+	height: 290px;
 	flex-flow: row wrap;
 	justify-content: center;
 	align-content: flex-start;
