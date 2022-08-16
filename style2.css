@@ -146,7 +146,7 @@ p {
 
 #container-shrink {
 	flex-wrap:nowrap;
-	max-width: 500px;
+	max-width: 600px;
 }
 
 #shrink_azul {
