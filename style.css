@@ -23,6 +23,7 @@ body {
 }
 
 header {
+	margin-top: 11px;
 	margin-bottom: 20px;
 	display: flex;
 	flex-direction: row;
