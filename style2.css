@@ -160,8 +160,8 @@ p {
 }
 
 #shrink_vermelho {
-	height:90px;
-	width: 90px;
+	height:100px;
+	width: 100px;
 	flex-shrink: 3;
 }
 
