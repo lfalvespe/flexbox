@@ -146,23 +146,12 @@ p {
 
 #container-shrink {
 	flex-wrap:nowrap;
-	max-width: 600px;
+	max-width: 230px;
 }
 
-#shrink_azul {
-	height:110px;
-	width: 110px;
-}
-
-#shrink_roxo {
-	height:110px;
-	width: 110px;
-}
 
 #shrink_vermelho {
-	height:110px;
-	width: 110px;
-	flex-shrink: 3;
+	flex-shrink: 4;
 }
 
 
