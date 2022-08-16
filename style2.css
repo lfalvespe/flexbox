@@ -149,9 +149,20 @@ p {
 	max-width: 500px;
 }
 
-#shrink {
+#shrink_azul {
+	height:90px;
+	width: 90px;
+}
+
+#shrink_roxo {
+	height:90px;
+	width: 90px;
+}
+
+#shrink_vermelho {
+	height:90px;
+	width: 90px;
 	flex-shrink: 3;
-	
 }
 
 
