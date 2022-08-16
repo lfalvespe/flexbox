@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aprenda Flexbox</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+
+    <header>
+        
+        <h1 class="titulo">FLEXBOX</h1>
+        <img class="logo-css" src="css3.jpg" width="60" alt="">
+    </header>
+    
+    <h1 class="barra-flex">Entendendo o 'display:flex'</h1>
+
+    <div class="flex-code">
+        
+        <pre><code>
+                .filhos {
+
+                    order: ...
+                    flex-grow: ...
+                    flex-shrink: ...
+                    flex-basis: ...
+                    flex: ...
+                    align-self: ...
+
+                }
+            </code></pre>
+    </div>
+    
+    
+    <h2>Propriedades dos objetos:</h2>
+
+    <br>
+    <h3>1 - order: <span style="color:white; margin-left: 0px;"> &nbspordem </span></h3>
+
+    <br>
+    
+
+    <div class="container">
+        <div class="azul">Bloco 1<br><br>0</div>
+        <div class="roxo">Bloco 2<br><br>0</div>
+        <div class="vermelho">Bloco3<br><br>0</div>
+    </div>
+
+    <br>
+    <p>order: <span style="color:crimson">1</span>; &nbsp&nbsp&nbsp&nbsp para o bloco 2</p>
+
+    <div class="container">
+        <div class="azul">Bloco 4<br><br>0</div>
+        <div class="roxo" id="order">Bloco 5<br><br>order:1</div>
+        <div class="vermelho">Bloco6<br><br>0</div>
+    </div>
+
+    <br>
+    <h3>2 - flex-grow: <span style="color:white; margin-left: 0px;"> crescimento</span></h3>
+
+    <br>
+    <div class="container">
+        <div class="azul">Bloco 1</div>
+        <div class="roxo">Bloco 2</div>
+        <div class="vermelho">Bloco 3</div>
+        <div class="azul">Bloco 4</div>
+        <div class="roxo">Bloco 5</div>
+        <div class="vermelho">Bloco 6</div>
+    </div>
+
+    <br>
+    <p>flex-grow: <span style="color:crimson">2</span>; &nbsp&nbsp&nbsp&nbsp para o bloco 5</p>
+
+    <div class="container">
+        <div class="azul">Bloco 1</div>
+        <div class="roxo">Bloco 2</div>
+        <div class="vermelho">Bloco 3</div>
+        <div class="azul">Bloco 4</div>
+        <div class="roxo" id="flex-grow">Bloco 5</div>
+        <div class="vermelho">Bloco 6</div>
+    </div>
+
+
+    <br>
+    <h3>2 - flex-shrink: <span style="color:white; margin-left: 0px;"> encolhimento </span></h3>
+
+    <div class="container">
+        <div class="azul">Bloco 1</div>
+        <div class="roxo">Bloco 2</div>
+        <div class="vermelho">Bloco 3</div>
+        <div class="azul">Bloco 4</div>
+        <div class="roxo">Bloco 5</div>
+        <div class="vermelho">Bloco 6</div>
+    </div>
+
+    <br>
+   
+    <br>
+    <p>flex-shrink: <span style="color:crimson">3</span>; &nbsp&nbsp&nbsp&nbsp para o bloco 3</p>
+   
+
+    <div class="container" id="container-shrink">
+        <div class="azul">Bloco 1</div>
+        <div class="roxo">Bloco 2</div>
+        <div class="vermelho" id="shrink">Bloco 3</div>
+        <div class="azul">Bloco 4</div>
+        <div class="roxo">Bloco 5</div>
+        <div class="azul">Bloco 1</div>
+    </div>
+    &nbsp&nbsp&nbsp(com max-width e no-wrap)
+
+</body>
+</html>
