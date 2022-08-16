@@ -9,6 +9,9 @@
 	#nove, #dez, #onze, #doze {
 		display: none;
 	}
+	
+	h3 {
+		font-size: 1em;
 }
 
 * {
