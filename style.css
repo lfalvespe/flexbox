@@ -297,20 +297,19 @@ hr {
 }
 
 footer {
-	padding-top:31px;
+	display: flex;
 	margin-top: 40px;
 	background-image: linear-gradient(to bottom, rgb(4, 25, 43), rgb(16, 68, 145));
-	height: 120px;
+	height: 170px;
 	box-shadow: 2px 2px 15px white ;
-	
 }
 
 footer p {
 	text-align: center;
 	text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.315);
 	font-family: arial;
-	line-height: 25px;
 	color: white;
+	line-height: 20px;
 }
 
 footer a {
