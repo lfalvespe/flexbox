@@ -297,10 +297,10 @@ hr {
 }
 
 footer {
-	padding-top:90px;
+	padding-top:60px;
 	margin-top: 40px;
 	background-image: linear-gradient(to bottom, rgb(4, 25, 43), rgb(16, 68, 145));
-	height: 180px;
+	height: 120px;
 	box-shadow: 2px 2px 15px white ;
 	
 }
@@ -311,4 +311,9 @@ footer p {
 	font-family: arial;
 	line-height: 25px;
 	color: white;
+}
+
+footer a {
+	color: aquamarine;
+	text-decoration: none;
 }
