@@ -38,12 +38,12 @@ header {
 
 .titulo {
 	flex-grow: 2;
-	background-color: black;
+	background-image: linear-gradient(to right, rgb(16, 68, 145), rgb(4, 25, 43));
 	color: white;
 	text-align: center;
-	text-shadow: 2px 2px 4px rgb(149, 208, 245);
+	text-shadow: 2px 2px 4px rgba(5, 5, 5, 0.377);
 	border-radius: 20px;
-	box-shadow: 0px 0px 5px white;
+	box-shadow: 0px 0px 8px white;
 	padding: 10px;
 }
 
@@ -54,13 +54,14 @@ header {
 }
 
 .barra-flex {
-	background-color: rgb(79, 173, 255);
+	background-color: rgb(248, 248, 187);
 	text-align: center;
 	font-style:italic;
-	text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.379);
+	text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.432);
 	border-radius: 10px;
 	box-shadow: 0px 0px 10px white;
 	margin-bottom: 33px;
+	color:rgb(16, 68, 145);
 }
 
 h2 {
@@ -297,7 +298,7 @@ hr {
 footer {
 	display: flex;
 	margin-top: 40px;
-	background-image: linear-gradient(to bottom, rgb(4, 25, 43), rgb(16, 68, 145));
+	background-image: linear-gradient(to bottom, rgb(2, 19, 34), rgb(16, 68, 145));
 	height: 180px;
 	box-shadow: 2px 2px 15px white ;
 }
