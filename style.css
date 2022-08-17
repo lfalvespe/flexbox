@@ -304,6 +304,7 @@ hr {
 	max-width: 300px;
 	margin: auto;
 	border-radius: 20px;
+	box-shadow: 0px 0px 3px white;
 }
 
 .botao a {
@@ -313,7 +314,7 @@ hr {
 }
 
 .botao:hover {
-	box-shadow: 0px 0px 5px white;
+	box-shadow: 0px 0px 10px white;
 }
 
 .botao:hover a {
@@ -325,7 +326,7 @@ footer {
 	margin-top: 40px;
 	background-image: linear-gradient(to bottom, rgb(2, 19, 34), rgb(16, 68, 145));
 	height: 180px;
-	box-shadow: 2px 2px 15px white ;
+	box-shadow: 0px 0px 5px white ;
 	border-radius: 20px 0px;
 }
 
