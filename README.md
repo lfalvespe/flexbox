@@ -1,10 +1,10 @@
 # Flexbox
-
-Site responsivo desenvolvido para ensinar sobre o display flex, mostrando o comportamento de cada propriedade.
+<div align="center">
+<p>Site responsivo desenvolvido para ensinar sobre o display flex, mostrando o comportamento de cada propriedade.</p>
 
 <br>
 
-<div align="center">
+
 <p>Acessar site: <a href="http://lfalvespe.github.io/flexbox">http://lfalvespe.github.io/flexbox</a></p>
 </div>
 
