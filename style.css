@@ -317,9 +317,6 @@ hr {
 	box-shadow: 0px 0px 10px white;
 }
 
-.botao:hover a {
-	color: rgb(181, 244, 223);
-}
 
 footer {
 	display: flex;
