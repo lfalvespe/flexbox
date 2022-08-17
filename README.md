@@ -1,6 +1,6 @@
 # Flexbox
 
-Site desenvolvido para ensinar sobre o display flex, mostrando o comportamento de cada propriedade.
+Site responsivo desenvolvido para ensinar sobre o display flex, mostrando o comportamento de cada propriedade.
 
 <br>
 
