@@ -225,10 +225,6 @@ hr {
 	box-shadow: 0px 0px 5px white;
 }
 
-.botao:hover a {
-	color: rgb(181, 244, 223);
-}
-
 footer {
 	display: flex;
 	margin-top: 40px;
