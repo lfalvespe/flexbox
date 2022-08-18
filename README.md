@@ -1,4 +1,4 @@
-<img src="imagens/css-black.png" width="60" align="right"><h1>Flexbox </h1> 
+<img src="imagens/css3-icon.png" width="60" align="right"><h1>Flexbox </h1> 
 
 
 <div align="center">
